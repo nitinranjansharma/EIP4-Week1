@@ -1,7 +1,7 @@
 # Accuracy - validation 0.9945 (final) after 20 epochs best after 0.9947 after 15 epochs
 # As seen in the test set : [0.0208969491261465, 0.9945]
 # Approach - Stack two convolution network block - 
-# 1st BLock - 2 (16 * 3 * 3) then transition layer followed by Max Pool(2*2*10)
+# 1st BLock - 2 (16 * 3 * 3) then transition layer followed by Max Pool(2 * 2 * 10)
 # 2nd Block - 1 (10 * 3 * 3) and 3(16 * 3 * 3) then transition layer followed by global average pooling and softmax to get outputs
 # Batch Normalisation used to retain the distribution constant while back propoagation and in theory by few can handle Internal COvariate Shift as well
 # Drop out of 0.1 used to reduce Overfitting in the model
