@@ -1,5 +1,5 @@
 # Validation accuracy for the base network given by 82.98
-# Final Validation Accuracy 80.14 and best 82.98 at 43 th epoch
+# Final Validation Accuracy 82.70 and best 82.98 at 43 th epoch
 
 # model definition
 weight_decay = 1e-4 ## https://appliedmachinelearning.blog/2018/03/24/achieving-90-accuracy-in-object-recognition-task-on-cifar-10-dataset-with-keras-convolutional-neural-networks/
