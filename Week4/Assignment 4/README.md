@@ -1,4 +1,4 @@
-# Highest accuracy 87.57 fro validation
+# Highest accuracy 87.57 from validation
 # 10 cat images have been sent to gradCam and taken the heatmap as an output
 ## The heatmap has been reduced in size since the size of the images were taking considerable size
 # Logs from resnet run
